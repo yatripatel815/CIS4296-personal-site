@@ -1,57 +1,48 @@
 :root {
-    --temple-red-dark: rgb(136, 24, 45);
-    --bs-primary: #88182d;
-    --bs-primary-rgb: 158, 27, 52;
-    --bs-primary-dark: #721426;
-    --bs-primary-dark-rgb: 136, 24, 35;
+    --theme-pink: #E88FA9;
+    --theme-pink-light: #F7C6D5;
+    --theme-green: #174A3A;
+    --theme-green-dark: #10352A;
 
+    --bs-primary: #E88FA9;
+    --bs-primary-rgb: 232, 143, 169;
+    --bs-primary-dark: #174A3A;
+    --bs-primary-dark-rgb: 23, 74, 58;
 }
 
 .btn-primary {
     --bs-btn-color: #fff;
-    --bs-btn-bg: #88182d;
-    --bs-btn-border-color: #88182d;
+    --bs-btn-bg: #174A3A;
+    --bs-btn-border-color: #174A3A;
+
     --bs-btn-hover-color: #fff;
-    --bs-btn-hover-bg: #721426;
-    --bs-btn-hover-border-color: #721426;
-    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-hover-bg: #10352A;
+    --bs-btn-hover-border-color: #10352A;
+
+    --bs-btn-focus-shadow-rgb: 232, 143, 169;
+
     --bs-btn-active-color: #fff;
-    --bs-btn-active-bg: #721426;
-    --bs-btn-active-border-color: #721426;
+    --bs-btn-active-bg: #10352A;
+    --bs-btn-active-border-color: #10352A;
+
     --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+
     --bs-btn-disabled-color: #fff;
-    --bs-btn-disabled-bg: #721426;
-    --bs-btn-disabled-border-color: #721426;
+    --bs-btn-disabled-bg: #10352A;
+    --bs-btn-disabled-border-color: #10352A;
 }
 
 .navbar {
-    --bs-navbar-active-color: rgba(var(--bs-emphasis-color-rgb), 1);
+    --bs-navbar-active-color: white;
     --bs-navbar-padding-x: 0.1rem;
     --bs-navbar-padding-y: 0;
     --bs-navbar-brand-color: white;
-    --bs-navbar-brand-hover-color: white;
+    --bs-navbar-brand-hover-color: #F7C6D5;
 }
-
 
 .navbar-nav {
     --bs-nav-link-padding-x: 0;
     --bs-nav-link-padding-y: 1rem;
     --bs-nav-link-color: white;
-    --bs-nav-link-hover-color: white;
-
+    --bs-nav-link-hover-color: #F7C6D5;
 }
-
-.navbar-nav {
-    --bs-nav-link-color: white;
-    --bs-nav-link-hover-color: white;
-}
-
-/* .btn-primary {
-    background-color: var(--temple-red) !important;
-    border-color: var(--temple-red) !important;
-} */
-
-/* .btn-primary:hover {
-    background-color: var(--temple-red-dark) !important;
-    border-color: var(--temple-red-dark) !important;
-} */
